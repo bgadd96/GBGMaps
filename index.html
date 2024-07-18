@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        #map {
+            width: 797px;
+            height: 798px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+<script src="resources/proj4.js"></script>
+        <script>proj4.defs('EPSG:4326','+proj=longlat +datum=WGS84 +no_defs');</script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/Pathsoriginal_1.js"></script><script src="layers/Stairs_2.js"></script><script src="layers/Generalveg_3.js"></script><script src="layers/Cannons_4.js"></script><script src="layers/Beds_5.js"></script><script src="layers/Merged_6.js"></script><script src="layers/Educationareas_7.js"></script><script src="layers/Dogpark_8.js"></script><script src="layers/Buildings_9.js"></script><script src="layers/Plantcollection_10.js"></script><script src="layers/Water_11.js"></script><script src="layers/ChildrensPark_12.js"></script><script src="layers/Statues_13.js"></script><script src="layers/TheDell_14.js"></script><script src="layers/Theatre_15.js"></script><script src="layers/Bridge_16.js"></script><script src="layers/Succulents_17.js"></script><script src="layers/Vines_18.js"></script><script src="layers/Wild_plants_19.js"></script><script src="layers/WildlifePark_20.js"></script><script src="layers/Theatrefull_21.js"></script><script src="layers/Northpaths_22.js"></script><script src="layers/Gardensextent_23.js"></script><script src="layers/Office_area_24.js"></script><script src="layers/Mothtrap_25.js"></script><script src="layers/Shrubs_26.js"></script><script src="layers/Aloes_27.js"></script><script src="layers/Bulbs_allies_28.js"></script><script src="layers/Epipytes_allies_29.js"></script><script src="layers/Grasses_allies_30.js"></script><script src="layers/Herbaceous_31.js"></script><script src="layers/Palms_cycads_al_32.js"></script>
+        <script src="styles/Pathsoriginal_1_style.js"></script><script src="styles/Stairs_2_style.js"></script><script src="styles/Generalveg_3_style.js"></script><script src="styles/Cannons_4_style.js"></script><script src="styles/Beds_5_style.js"></script><script src="styles/Merged_6_style.js"></script><script src="styles/Educationareas_7_style.js"></script><script src="styles/Dogpark_8_style.js"></script><script src="styles/Buildings_9_style.js"></script><script src="styles/Plantcollection_10_style.js"></script><script src="styles/Water_11_style.js"></script><script src="styles/ChildrensPark_12_style.js"></script><script src="styles/Statues_13_style.js"></script><script src="styles/TheDell_14_style.js"></script><script src="styles/Theatre_15_style.js"></script><script src="styles/Bridge_16_style.js"></script><script src="styles/Succulents_17_style.js"></script><script src="styles/Vines_18_style.js"></script><script src="styles/Wild_plants_19_style.js"></script><script src="styles/WildlifePark_20_style.js"></script><script src="styles/Theatrefull_21_style.js"></script><script src="styles/Northpaths_22_style.js"></script><script src="styles/Gardensextent_23_style.js"></script><script src="styles/Office_area_24_style.js"></script><script src="styles/Mothtrap_25_style.js"></script><script src="styles/Shrubs_26_style.js"></script><script src="styles/Aloes_27_style.js"></script><script src="styles/Bulbs_allies_28_style.js"></script><script src="styles/Epipytes_allies_29_style.js"></script><script src="styles/Grasses_allies_30_style.js"></script><script src="styles/Herbaceous_31_style.js"></script><script src="styles/Palms_cycads_al_32_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
